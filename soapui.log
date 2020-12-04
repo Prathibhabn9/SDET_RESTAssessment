@@ -1,0 +1,29 @@
+2020-12-04 12:00:30,910 WARN  [SoapUI] Missing folder [C:\Users\PrathibhaBN\Documents\RESTAssessment\ext] for external libraries
+2020-12-04 12:00:31,268 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PrathibhaBN\soapui-settings.xml]
+2020-12-04 12:00:32,609 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PrathibhaBN/Documents/RESTAssessment/REST-Project-6-soapui-project.xml]
+2020-12-04 12:00:33,182 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST_Assessment]
+2020-12-04 12:00:33,186 INFO  [SoapUITestCaseRunner] Running Project [REST_Assessment], runType = SEQUENTIAL
+2020-12-04 12:00:33,209 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-12-04 12:00:33,216 INFO  [SoapUITestCaseRunner] running step [GenerateToken]
+2020-12-04 12:00:34,292 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 12:00:34,336 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-04 12:00:34,727 INFO  [log] {"success":1,"error":[],"data":{"access_token":"1b16d557fd1a90485d2abe04436c3f70710aedaf","expires_in":86400,"token_type":"Bearer"}}
+2020-12-04 12:00:34,754 INFO  [log] {data={access_token=1b16d557fd1a90485d2abe04436c3f70710aedaf, token_type=Bearer, expires_in=86400}, success=1, error=[]}
+2020-12-04 12:00:34,758 INFO  [log] 1b16d557fd1a90485d2abe04436c3f70710aedaf
+2020-12-04 12:00:34,772 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-12-04 12:00:35,451 INFO  [SoapUITestCaseRunner] running step [CreateNewProduct]
+2020-12-04 12:00:35,851 INFO  [SoapUITestCaseRunner] running step [Fetch_ProductCretaed]
+2020-12-04 12:00:35,881 INFO  [log] {"success":1,"error":[],"data":{"id":3394}}
+2020-12-04 12:00:35,882 INFO  [log] {data={id=3394}, success=1, error=[]}
+2020-12-04 12:00:35,882 INFO  [log] 3394
+2020-12-04 12:00:35,896 INFO  [SoapUITestCaseRunner] running step [GETProductID]
+2020-12-04 12:00:36,244 INFO  [SoapUITestCaseRunner] running step [UpdateProduct]
+2020-12-04 12:00:36,565 INFO  [SoapUITestCaseRunner] running step [GETProductID_AfterUpdating]
+2020-12-04 12:00:36,988 INFO  [log] 14000.0000
+2020-12-04 12:00:37,004 INFO  [log] Lenovo IdeaPad S500 extended
+2020-12-04 12:00:37,027 INFO  [log] com.eviware.soapui.support.XmlHolder@404f980e
+2020-12-04 12:00:37,027 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 12:00:37,027 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-04 12:00:37,028 INFO  [SoapUITestCaseRunner] Assertion [Status] has status VALID
+2020-12-04 12:00:37,034 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 3417ms, status: FINISHED
+2020-12-04 12:00:37,034 INFO  [SoapUITestCaseRunner] Project [REST_Assessment] finished with status [FINISHED] in 3843ms

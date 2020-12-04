@@ -1,0 +1,9 @@
+2020-12-04 12:00:34,727 INFO  [log] {"success":1,"error":[],"data":{"access_token":"1b16d557fd1a90485d2abe04436c3f70710aedaf","expires_in":86400,"token_type":"Bearer"}}
+2020-12-04 12:00:34,754 INFO  [log] {data={access_token=1b16d557fd1a90485d2abe04436c3f70710aedaf, token_type=Bearer, expires_in=86400}, success=1, error=[]}
+2020-12-04 12:00:34,758 INFO  [log] 1b16d557fd1a90485d2abe04436c3f70710aedaf
+2020-12-04 12:00:35,881 INFO  [log] {"success":1,"error":[],"data":{"id":3394}}
+2020-12-04 12:00:35,882 INFO  [log] {data={id=3394}, success=1, error=[]}
+2020-12-04 12:00:35,882 INFO  [log] 3394
+2020-12-04 12:00:36,988 INFO  [log] 14000.0000
+2020-12-04 12:00:37,004 INFO  [log] Lenovo IdeaPad S500 extended
+2020-12-04 12:00:37,027 INFO  [log] com.eviware.soapui.support.XmlHolder@404f980e
